@@ -18,10 +18,11 @@ public class NestedClass {
 	
 	public static void main(String[] args) {
 		A a = new A();
+		a.setSize(0);
 		
 		NestedClass nc = new NestedClass();
 		B b1 = nc.new B();
-		
+		b1.setSize(2);
 		//B b2 = new B();    
 		//error here; non-static nested class not 
 		//accessible vidout outer class object
