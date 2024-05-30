@@ -1,6 +1,6 @@
 𝐁𝐀𝐒𝐈𝐂𝐒
 1. 𝐠𝐢𝐭 𝐢𝐧𝐢𝐭 <𝐝𝐢𝐫𝐞𝐜𝐭𝐨𝐫𝐲> 
-Create empty Git repo in the specific directory
+Create empty Git repo in the specific directory in local
 
 2. 𝐠𝐢𝐭 𝐜𝐥𝐨𝐧𝐞 <𝐫𝐞𝐩𝐨> 
 Clone repo located at the <repo> defined. Can be either local or removed via HTTP or SSH
