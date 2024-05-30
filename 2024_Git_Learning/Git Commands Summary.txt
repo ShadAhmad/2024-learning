@@ -6,7 +6,7 @@ Create empty Git repo in the specific directory in local
 Clone repo located at the <repo> defined. Can be either local or removed via HTTP or SSH
 
 3. 𝐠𝐢𝐭 𝐜𝐨𝐧𝐟𝐢𝐠 𝐮𝐬𝐞𝐫.𝐧𝐚𝐦𝐞 <𝐧𝐚𝐦𝐞> 
-Author name that would be used for all commits in the current repo
+Author name that would be used for all commits in the current local repo
 
 4. 𝐠𝐢𝐭 𝐚𝐝𝐝 <𝐝𝐢𝐫𝐞𝐜𝐭𝐨𝐫𝐲>/<𝐟𝐢𝐥𝐞>
 Adds the directory/file on your next commit
