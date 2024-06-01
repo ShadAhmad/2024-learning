@@ -2,7 +2,7 @@
 Files created as a part of learning in 2024
 
 Remote GitHub Repo branches:
-main<br>monthly<br>weekly<br>daily
+main<br>monthly<br>daily
 
 Local Git branches:
-main<br>monthly<br>weekly<br>daily
+main<br>monthly<br>daily
