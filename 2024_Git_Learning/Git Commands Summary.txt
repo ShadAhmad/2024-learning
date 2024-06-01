@@ -32,7 +32,7 @@ Undoes all the changes made in <commit> then apply it to the the current branch
 Removes the file from the staging area, but leave the working directory unchanged. This unstages a file without overwriting any changes 
 
 3. 𝐠𝐢𝐭 𝐜𝐥𝐞𝐚𝐧
-Used to remove unwanted files from your working directory. Many options to remove the unwanted files i.e., -f, -n, -d, etc.
+Used to remove the unwanted files from your working directory. Many options to remove the unwanted files i.e., -f, -n, -d, etc.
 
 
 𝐑𝐄𝐖𝐑𝐈𝐓𝐈𝐍𝐆 𝐆𝐈𝐓 𝐇𝐈𝐒𝐓𝐎𝐑𝐘
