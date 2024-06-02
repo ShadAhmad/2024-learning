@@ -1,0 +1,3214 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/B133A994/Git.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3DGit.htm>
+<link rel=3DFile-List href=3D"Git_files/filelist.xml">
+</head>
+
+<body lang=3Den-IN style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:10.1625in'>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 cols=3D3 valign=3Dtop sty=
+le=3D'direction:
+ ltr;border-collapse:collapse;border-width:0pt;margin-top:0in;margin-left:0=
+in;
+ width:9.7034in'>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.8097in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:4.4402in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.4534in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.1951in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td rowspan=3D2 valign=3Dtop style=3D'vertical-align:top;margin:0in;paddi=
+ng:0pt;
+  width:2.8097in;height:.3479in'>
+  <p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt'>Git =
+&amp;
+  GitHub Theory</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:4.4402in;
+  height:.1951in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.4534in;
+  height:.1951in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+><a
+  href=3D"https://www.atlassian.com/git">https://www.atlassian.com/git</a><=
+/p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.152in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:4.4402in;
+  height:.152in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.4534in;
+  height:.152in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+</table>
+
+<div style=3D'direction:ltr;margin-top:.0409in;margin-left:0in;width:1.5062=
+in'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+30 May
+2024</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+00:17</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.1826in;margin-left:0in;width:10.162=
+5in'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+style=3D'font-weight:bold'>Git</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Free and open =
+source
+distributed vcs (version control system)</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:11.0pt'>Useful to track code ch=
+anges</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:11.0pt'>Gives ease of collabora=
+tion
+     (without over-writing)</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:11.0pt'>Great for taking Backup=
+</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:11.0pt'>Allows user to free
+     experiment since separate branches can be created without affecting ma=
+ster
+     or main branch </span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:11.0pt'>Industry standard (fast=
+ &amp;
+     scalable)</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:11.0pt'>Open-source Projects
+     contributions can be done</span></li>
+</ul>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+style=3D'font-weight:bold'>Git Repository Structure </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>4 parts:<span
+style=3D'mso-spacerun:yes'>  </span></p>
+
+<ol type=3D1 style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:11.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'=
+><span
+     style=3D'font-family:Calibri;font-size:11.0pt;font-weight:bold;font-st=
+yle:
+     normal;font-weight:bold;font-family:Calibri;font-size:11.0pt'>Working
+     directory:</span><span style=3D'font-family:Calibri;font-size:11.0pt;
+     font-weight:normal;font-style:normal;font-family:Calibri;font-size:11.=
+0pt'>
+     This is our local directory where we make the project (write code) and
+     make changes to it.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-weight:bold;font-family:Calibri;font-size:11.0pt'>Stagin=
+g Area</span><span
+     style=3D'font-family:Calibri;font-size:11.0pt'> (cache area or index):=
+ An
+     area where we first need to put our project before committing. This is
+     used for code review by other team members.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-weight:bold;font-family:Calibri;font-size:11.0pt'>Local
+     Repository</span><span style=3D'font-family:Calibri;font-size:11.0pt'>=
+: Our
+     local repository where we commit changes to the project before pushing
+     them to the central repository on GitHub. This is what is provided by =
+the
+     distributed version control system. This corresponds to the .git folde=
+r in
+     our directory.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-weight:bold;font-family:Calibri;font-size:11.0pt'>Central
+     Repository</span><span style=3D'font-family:Calibri;font-size:11.0pt'>=
+: This
+     is the main project on the central server (viz. GitHub main repo), a c=
+opy
+     of which is with every team member as a local repository.</span></li>
+</ol>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+style=3D'font-weight:bold'>Git Workflow</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>init/clone --&=
+gt;
+add to staged area by <span style=3D'font-weight:bold'>add</span> command -=
+-&gt;
+commit the file to complete the changes --&gt; push the changes to remote
+repo<br>
+(OR create a pull request in remote repo)</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+style=3D'font-style:italic'>Note: From long time, default branch name was '=
+</span><span
+style=3D'font-weight:bold;font-style:italic'>master</span><span style=3D'fo=
+nt-style:
+italic'>' which has now been proposed to change as '</span><span
+style=3D'font-weight:bold;font-style:italic'>main</span><span style=3D'font=
+-style:
+italic'>' in near future (once they're (Git founders) comfortable that exis=
+ting
+customers 'master' named branch is not impacted)</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+style=3D'font-weight:bold'>Merging in Git</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>2 ways:</p>
+
+<ol type=3Di style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:11.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'=
+><span
+     style=3D'font-family:Calibri;font-size:11.0pt;font-weight:normal;font-=
+style:
+     normal;font-family:Calibri;font-size:11.0pt'>Creating a pull request f=
+rom
+     GitHub UI, the target branch owner will review &amp; approve the merge=
+.</span></li>
+</ol>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'>After
+that we can use <span style=3D'font-weight:bold'>git pull</span> to get cha=
+nges
+to our local git further.</p>
+
+<ol type=3Di style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:11.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D2 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'=
+><span
+     style=3D'font-family:Calibri;font-size:11.0pt;font-weight:normal;font-=
+style:
+     normal;font-family:Calibri;font-size:11.0pt'>Using </span><span
+     style=3D'font-family:Calibri;font-size:11.0pt;font-weight:bold;font-st=
+yle:
+     normal;font-weight:bold;font-family:Calibri;font-size:11.0pt'>git merge
+     &lt;branch name to merge&gt; </span><span style=3D'font-family:Calibri;
+     font-size:11.0pt;font-weight:normal;font-style:normal;font-family:Cali=
+bri;
+     font-size:11.0pt'>: Creates a new commit in current branch by combining
+     the code received from </span><span style=3D'font-family:Calibri;font-=
+size:
+     11.0pt;font-weight:bold;font-style:normal;font-weight:bold;font-family:
+     Calibri;font-size:11.0pt'>&lt;branch name to merge&gt; </span><span
+     style=3D'font-family:Calibri;font-size:11.0pt;font-weight:normal;font-=
+style:
+     normal;font-family:Calibri;font-size:11.0pt'>branch</span></li>
+</ol>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+style=3D'font-weight:bold'>.gitignore files</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>.gitignore fil=
+es are
+used to tell the git tool to intentionally ignore some files in a given Git
+repository. For example, this can be useful for configuration files or meta=
+data
+files that a user may not want to check into the master branch.</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+style=3D'font-style:italic'>Note: When we rename file in local, Git conside=
+rs it
+like we've deleted the file and add a new file</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+style=3D'font-weight:bold'>Fork a Repo</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Add a copy of
+someone else Repo into our GitHub using Fork button on GitHub</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+style=3D'font-weight:bold'>GitHub</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Used to hosts =
+Git
+repositories online. Helps users share their git repository online with oth=
+er
+users, or access it remotely.</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>We can host a =
+public
+repository for free on GitHub. </p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>User share the=
+ir
+repository online for various reasons like project deployment, project shar=
+ing,
+open source contribution, helping out the community etc</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Various remote
+repository hosting sites: GitHub, BitBucket, Gitlab</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:7.6027in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:2.6541in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt'>Settin=
+g up
+Git bash</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0409in;margin-left:0in;width:1.5062=
+in'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+30 May
+2024</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+00:40</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.1826in;margin-left:0in;width:7.6027=
+in'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>//To see wheth=
+er Git
+is properly installed</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>//Use double-d=
+ash
+before version</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>git --version<=
+/p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>//Set global p=
+rofile
+(can be specific for diff user too)</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>git config --g=
+lobal
+user.name myName</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>git config --g=
+lobal
+user.email myEMail@com</p>
+
+<p style=3D'margin:0in;font-family:Calibri'><span style=3D'font-size:12.0pt=
+'>//</span><span
+style=3D'font-size:11.0pt'>set a name that is identifiable for credit when =
+review
+version history</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>//set an email
+address that will be associated with each history marker</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>//set automatic
+command line colouring for Git for easy reviewing</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>git config --g=
+lobal
+color.ui auto</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>//To view glob=
+al
+configuration</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>git config --g=
+lobal
+--list</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>//Since GitHub=
+ has
+moved to default branch as '<span style=3D'font-weight:bold'>main</span>' i=
+nstead
+of earlier '<span style=3D'font-weight:bold'>master</span>',</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>// we can conf=
+igure
+same on our Git as well</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>git config --g=
+lobal
+init.defaultbranch main</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>//To unset/rem=
+ove
+any config (key mean the config name to unset)</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>git config --g=
+lobal
+--unset key</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>//To edit conf=
+ig
+file</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>git config --g=
+lobal
+--edit</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt'><span
+style=3D'font-style:italic'>Note:</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt'><span
+style=3D'font-style:italic'>As long as the bash current directory is not a =
+git
+enabled (git init or clone has run) directory, the config can be only appli=
+ed
+for global.</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt'><span
+style=3D'font-style:italic'>To see current working directory:<span
+style=3D'mso-spacerun:yes'>  </span></span><span style=3D'font-style:itali=
+c;
+background:yellow;mso-highlight:yellow'>pwd</span></p>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:7.5625in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.9458in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt'>Eclipse
+&amp; Git</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0409in;margin-left:0in;width:1.5062=
+in'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+30 May
+2024</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+01:31</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4326in;margin-left:0in;width:7.5625=
+in'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Open Help --&g=
+t;
+'Eclipse Marketplace' in Eclipse</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Search for <sp=
+an
+style=3D'font-weight:bold'>EGit</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Choose the <sp=
+an
+style=3D'font-weight:bold'>EGit - Git Integration …. </span>&amp; install=
+</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Goto Window --=
+&gt;
+Show View --&gt; Other</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Choose Git --&=
+gt;
+Git Repositories</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Click on 'Clon=
+e a
+Git Repository' &amp; choose 'Clone URI'</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Provide GitHub=
+ Repo
+link (Open repo on GitHub, click Code &amp; copy the link) &amp; necessary
+details</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Right click on
+existing project (if any) --&gt; Team --&gt; Share Project</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Choose your Gi=
+t from
+the dropdown and finish</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+style=3D'font-weight:bold'>However</span>, do note that the terminal is not
+available in Eclipse by EGit Integration.</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>We either go f=
+or
+other plugins OR better use Git bash itself by navigating the directory whe=
+re
+eclipse git repo in present in local</p>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:12.6166in'>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 cols=3D9 valign=3Dtop sty=
+le=3D'direction:
+ ltr;border-collapse:collapse;border-width:0pt;margin-top:0in;margin-left:0=
+in;
+ width:12.6166in'>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.5062in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.6854in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:4.2833in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4493in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0743in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:3.6305in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.0861in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.8631in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0354in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.1951in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td colspan=3D2 rowspan=3D3 valign=3Dtop style=3D'vertical-align:top;marg=
+in:0in;
+  padding:0pt;width:2.1916in;height:.3479in'>
+  <p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt'>Git
+  Commands</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:4.2833in;
+  height:.1951in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4493in;
+  height:.1951in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0743in;
+  height:.1951in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td colspan=3D2 valign=3Dtop style=3D'vertical-align:top;margin:0in;paddi=
+ng:0pt;
+  width:4.7166in;height:.1951in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Quick
+  Summary: <a href=3D"https://www.geeksforgeeks.org/essential-git-commands"=
+>https://www.geeksforgeeks.org/essential-git-commands</a></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.8631in;
+  height:.1951in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0354in;
+  height:.1951in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.1506in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:4.2833in;
+  height:.1506in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4493in;
+  height:.1506in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0743in;
+  height:.1506in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:3.6305in;
+  height:.1506in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.0861in;
+  height:.1506in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.8631in;
+  height:.1506in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0354in;
+  height:.1506in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.0013in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:4.2833in;
+  height:.0013in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4493in;
+  height:.0013in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td colspan=3D2 rowspan=3D5 valign=3Dtop style=3D'vertical-align:top;marg=
+in:0in;
+  padding:0pt;width:3.7055in;height:1.3076in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git rm</span>: To remove (delete) file<span
+  style=3D'mso-spacerun:yes'>        </span><span style=3D'font-weig=
+ht:bold'>git mv</span>:
+  To move a file</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git remote</span>: Lists all remote repos</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+><span
+  style=3D'font-weight:bold'><span style=3D'mso-spacerun:yes'> </span>vi e=
+ditor on
+  Git bash</span></p>
+  <div style=3D'direction:ltr'>
+  <table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'd=
+irection:ltr;
+   border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-=
+width:
+   1pt' title=3D"" summary=3D"">
+   <tr>
+    <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    vertical-align:top;width:1.5972in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-=
+US>To
+    move left, press h</p>
+    </td>
+    <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    vertical-align:top;width:1.4937in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-=
+US>To
+    move right, press l</p>
+    </td>
+   </tr>
+   <tr>
+    <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    vertical-align:top;width:1.6159in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-=
+US>To
+    move down, press j</p>
+    </td>
+    <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    vertical-align:top;width:1.4048in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-=
+US>To
+    move up, press k</p>
+    </td>
+   </tr>
+  </table>
+  </div>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.0861in;
+  height:.0013in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.8631in;
+  height:.0013in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0354in;
+  height:.0013in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.0409in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.5062in;
+  height:.0409in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.6854in;
+  height:.0409in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:4.2833in;
+  height:.0409in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4493in;
+  height:.0409in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.0861in;
+  height:.0409in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.8631in;
+  height:.0409in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0354in;
+  height:.0409in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.1784in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.5062in;
+  height:.1784in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676=
+'>30
+  May 2024</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676=
+'>01:58</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.6854in;
+  height:.1784in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:4.2833in;
+  height:.1784in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4493in;
+  height:.1784in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.0861in;
+  height:.1784in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.8631in;
+  height:.1784in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0354in;
+  height:.1784in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.1826in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.5062in;
+  height:.1826in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.6854in;
+  height:.1826in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:4.2833in;
+  height:.1826in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4493in;
+  height:.1826in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.0861in;
+  height:.1826in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.8631in;
+  height:.1826in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0354in;
+  height:.1826in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.9034in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td colspan=3D3 rowspan=3D5 valign=3Dtop style=3D'vertical-align:top;marg=
+in:0in;
+  padding:0pt;width:6.475in;height:14.7416in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git clone &lt;--clone-link--&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To initializ=
+e our
+  local workspace as a Git enabled directory (workspace/repository) and
+  retrieve an entire repository from a hosted location via URL (create a co=
+py
+  of an existing remote (GitHub) repository in our local directory/workspac=
+e)</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git status</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Shows status=
+ of
+  our codebase</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>(whether any
+  untracked, modified files in working directory, tracked file staged for
+  commit OR unchanged)</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>4 status is
+  possible</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>untracked: n=
+ew
+  file's that isn't yet tracked by Git<span style=3D'mso-spacerun:yes'> 
+  </span>(need to use <span style=3D'font-weight:bold'>add</span> command t=
+o add
+  them to staging (index) area for git to consider the file for tracking
+  further)</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>modified: any
+  changes to a git tracked file (whose new changes has not been added yet)<=
+/p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>staged: file=
+s is
+  ready to commit [includes files which were earlier untracked &amp; then a=
+dded
+  using add and files which were tracked earlier also but has been modified
+  &amp; then add command is run]</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>unmodified:
+  Meaning no changes have done so far since the previous commit</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git add </span><span style=3D'font-weight:bold;
+  font-style:italic'>&lt;filename&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Add our
+  changes/untracked file to the staging area of Git in order to commit furt=
+her.
+  <span style=3D'font-style:italic'>Use '.' dot for all files.</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+><span
+  style=3D'font-weight:bold'>git restore &lt;file-path with file-name&gt; <=
+/span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Restores
+  the tracked files as per latest commit</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git reset </span><span style=3D'font-weight:bo=
+ld;
+  font-style:italic'>&lt;filename&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Reset our st=
+aging
+  area changes by unstaging for the changes</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>[File change=
+s will
+  be visible in our workspace however not in the staging area; i.e. file is=
+ in
+  modified/untracked status]</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+><span
+  style=3D'font-weight:bold'>git clean</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Removes
+  untracked files from the working directory. This is similar to git reset,
+  which (typically) only operates on tracked files.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git commit -a</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Automaticall=
+y adds
+  all modified files in the staging area, they're ready to be committed. </=
+p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Note that new
+  (untracked) files are not staged; only existing files which are modified =
+are
+  staged.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git commit -m “[descriptive message]”</spa=
+n></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Commit our c=
+hanges
+  in staged area as a new commit snapshot. This symbolises a record of chan=
+ge</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git commit<span style=3D'mso-spacerun:yes'> 
+  </span>--allow-empty -m “[descriptive message]”</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Allows to co=
+mmit
+  even if we don't have any changes after the latest commit. Used to mark s=
+ome
+  event such as start of new feature OR new team OR new sprint etc</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git log</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To see all c=
+ommits
+  details starting from latest. [Latest commit is called head]</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git push origin</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To push our =
+local
+  commits to remote repo of GitHub into all the branches [not recommended]<=
+/p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git push origin main</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To push our =
+local
+  commits to remote repo of GitHub into it's <span style=3D'font-weight:bol=
+d'>main</span>
+  branch only</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>[here by def=
+ault
+  'origin' is the remote repo name generally used in Git]</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-style:italic'>For ease of use, remote repo name 'origin' &a=
+mp;
+  branch 'main' can be set as upstream; </span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold;font-style:italic'>git push -u origin main</spa=
+n></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-style:italic'>Now, only </span><span style=3D'font-weight:b=
+old;
+  font-style:italic'>git push</span><span style=3D'font-style:italic'> is
+  sufficient to push our local commits to GitHub</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git pull origin &lt;remote-branch-name&gt;</sp=
+an></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To fetch the
+  latest code from remote branch and add them into our current local branch=
+</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+><a
+  href=3D"https://www.atlassian.com/git/tutorials/syncing/git-pull">https:/=
+/www.atlassian.com/git/tutorials/syncing/git-pull</a></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>All new
+  commits from point where we create our local current branch will be impor=
+ted
+  in local branch</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>//The above =
+was
+  feasible when we've data in remote repo (GitHub)</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>//However, to
+  start a new project from local, use<span style=3D'font-weight:bold'> init=
+ </span>command
+  to make local directory git enabled</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>//Next, crea=
+te
+  empty repo on GitHub and copy it's link from 'Code' button</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>//Now, we've=
+ to
+  link our Git to point the <span style=3D'font-weight:bold'>origin </span>=
+repo
+  to our correct GitHub repo</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git init</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>initialize an
+  existing local directory as a Git repository</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git remote add origin &lt;--repo_link--&gt;</s=
+pan></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To point the
+  origin (Git's default name for remote repo) to our correct GitHub repo</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git remote -v</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To ensure ou=
+r Git
+  points to correct link of the GitHub remote repo</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4493in;
+  height:.9034in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.0861in;
+  height:.9034in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.8631in;
+  height:.9034in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0354in;
+  height:.9034in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.3451in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4493in;
+  height:.3451in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0743in;
+  height:.3451in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:3.6305in;
+  height:.3451in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.0861in;
+  height:.3451in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.8631in;
+  height:.3451in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0354in;
+  height:.3451in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:10.4694in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4493in;
+  height:10.4694in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0743in;
+  height:10.4694in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td colspan=3D4 valign=3Dtop style=3D'vertical-align:top;margin:0in;paddi=
+ng:0pt;
+  width:5.6166in;height:10.4694in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt'><span
+  style=3D'font-weight:bold'>Branch</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Branch is a
+  new/separate version of the main repository, so that collaboration is easy
+  &amp; efficient. For each task/user, a branch can be created &amp; changes
+  pushed into that which has to be later merged into the main.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'background:yellow;mso-highlight:yellow'>Whenever we checkout to a
+  branch using Git, the data of that respective branch only is visible in o=
+ur
+  local computer Git enabled folder.</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>//Do Note th=
+at in
+  below, simply 'branch' refers to branch in our local repo</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git branch</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To view list=
+ of
+  branches (in local Git)</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git branch -r</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To view list=
+ of
+  branches on remote repo (GitHub)</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git branch -a</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To view list=
+ of
+  branches on local Git as well as remote repo (GitHub)</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git branch -M main</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To rename the
+  current branch as <span style=3D'font-weight:bold'>main</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git branch -d &lt;branch-name&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To delete a =
+branch
+  [error comes if we delete current branch; first switch (checkout) to anot=
+her
+  branch &amp; then delete]. Also it will work if latest commits/changes are
+  merged to the current branch fully. Still if deletion is required use, <s=
+pan
+  style=3D'font-weight:bold;font-style:italic'>git branch</span><span
+  style=3D'font-weight:bold;font-style:italic;color:#FA0000;background:yell=
+ow;
+  mso-highlight:yellow'> -D</span><span style=3D'font-weight:bold;font-styl=
+e:
+  italic'> &lt;branch-name&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git branch -d &lt;remote-branch-name&gt;</span=
+></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>It will only
+  delete the remote branch from Git local view, however will remain on GitH=
+ub</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To remove fr=
+om
+  GitHub too, run <span style=3D'font-weight:bold'>git push origin -d
+  &lt;remote-branch-name&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git push origin -d &lt;remote-branch-name&gt;<=
+/span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To delete a =
+remote
+  branch</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git checkout &lt;branch-name&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To switch to
+  different branch</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git branch &lt;branch-name&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To create a =
+new
+  branch at the current commit (all history of commits starting from initial
+  commit of the current branch is preserved &amp; present );<span
+  style=3D'font-weight:bold;font-style:italic'> we'll be still at current b=
+ranch</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>[Only local =
+branch
+  can be created; remote branch can't be created directly, we need to push =
+our
+  commits to remote by specifying a new-branch-name for new branch creation=
+</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git checkout<span style=3D'mso-spacerun:yes'> 
+  </span>-b &lt;branch-name&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To create a =
+new
+  branch at the current commit and <span style=3D'font-weight:bold;font-sty=
+le:
+  italic'>switch to the newly created branch</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold' lang=3Den-US>git checkout --orphan</span><span
+  style=3D'font-weight:bold' lang=3Den-IN> &lt;branch-name&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To create a =
+new
+  branch at the current commit (with all commit history from initial commit=
+ of
+  the current branch) and switch to the newly created branch</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git push -u origin newbranch</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Pushes local
+  commits to remote GitHub newbranch branch (creates a new branch 'newbranc=
+h',
+  if it doesn't exists)</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git pull origin &lt;remote-branch-name&gt;</sp=
+an></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To fetch the
+  latest code from remote branch and add them into our current local branch=
+</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>[git fetch d=
+oes
+  same but doesn't automatically add changes to our local]</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.3368in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4493in;
+  height:.3368in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0743in;
+  height:.3368in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:3.6305in;
+  height:.3368in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.0861in;
+  height:.3368in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.8631in;
+  height:.3368in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0354in;
+  height:.3368in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:2.6847in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4493in;
+  height:2.6847in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0743in;
+  height:2.6847in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td colspan=3D3 rowspan=3D2 valign=3Dtop style=3D'vertical-align:top;marg=
+in:0in;
+  padding:0pt;width:5.5805in;height:2.993in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git diff &lt;branch-name&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To compare
+  difference of any branch-name vs current branch (latest commit)</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git diff -u &lt;branch-name&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Used to comp=
+are
+  branch difference, line by line, and have the differing lines compared
+  side-by-side in the same output with latest commit of our current branch<=
+/p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git diff --staged</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Show all sta=
+ged
+  files compared to the<span style=3D'mso-spacerun:yes'>  </span>current b=
+ranch
+  (latest commit)</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git diff -u &lt;branch-name-1&gt;
+  &lt;branch-name-2&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Shows differ=
+ence
+  b/w the two branches, line by line</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git merge &lt;branch-name&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>We can combi=
+ne
+  &lt;branch-name&gt; into our current branch and a new commit is added in
+  current branch</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0354in;
+  height:2.6847in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.3076in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.5062in;
+  height:.3076in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.6854in;
+  height:.3076in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:4.2833in;
+  height:.3076in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4493in;
+  height:.3076in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0743in;
+  height:.3076in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0354in;
+  height:.3076in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:13.2104in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:2.4937in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt' lang=
+=3Den-US>Undoing
+Changes</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0409in;margin-left:0in;width:1.5062=
+in'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+31 May
+2024</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+00:38</p>
+
+</div>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 cols=3D4 valign=3Dtop sty=
+le=3D'direction:
+ ltr;border-collapse:collapse;border-width:0pt;margin-top:.1826in;margin-le=
+ft:
+ 0in;width:13.2104in'>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:6.9875in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.5118in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:4.8416in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.868in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:1.6868in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td rowspan=3D4 valign=3Dtop style=3D'vertical-align:top;margin:0in;paddi=
+ng:0pt;
+  width:6.9875in;height:3.925in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Case 0:
+  non-staged changes</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>git
+  restore &lt;file-path with file-name&gt;<span style=3D'mso-spacerun:yes'>=
+    
+  </span>[only tracked files will be restored as per latest commit]</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Case 1
+  : staged changes</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>git
+  reset &lt;- file name -&gt; </p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>git
+  reset </p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Case 2
+  : committed changes (for one commit) </p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>git
+  reset HEAD~1<span style=3D'mso-spacerun:yes'>   </span>OR<span
+  style=3D'mso-spacerun:yes'>   </span>git reset --soft HEAD~1<span
+  style=3D'mso-spacerun:yes'>   </span>[both commands will be doing same]=
+</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Case 3
+  : committed changes (for many commits) </p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>git
+  reset &lt;- commit hash -&gt;<span style=3D'mso-spacerun:yes'>     �=
+�         
+  </span>[local files not affected, will be visible as modified unstaged fi=
+les
+  in local]</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>git
+  reset --hard &lt;- commit hash -&gt;<span style=3D'mso-spacerun:yes'>  =
+ 
+  </span>[will reset files in local directories too]</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+><span
+  style=3D'font-weight:bold'>NOTE: </span>Using<span style=3D'font-weight:b=
+old'>
+  git reset</span> All commits done after the mentioned commit-id will be
+  removed</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+><span
+  style=3D'font-weight:bold'>git revert HEAD~1<span
+  style=3D'mso-spacerun:yes'>            </span></span>[HEAD~1 m=
+eans we want to
+  refer commit 1 before the current HEAD (latest commit)]</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+><span
+  style=3D'font-weight:bold'>git revert &lt;- commit hash -&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Revert
+  will create a new commit by reversing the changes from latest commit back=
+ to
+  mentioned commit-id (like a roll-back of changes).</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Will
+  not remove any commit history.</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.5118in;
+  height:1.6868in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:4.8416in;
+  height:1.6868in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+><span
+  style=3D'font-weight:bold'>git commit --amend</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Useful
+  to <span style=3D'background:yellow;mso-highlight:yellow'>update our comm=
+it
+  message</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>This
+  command will create a new commit with our updated commit message &amp; al=
+l if
+  any more ready to be commited files in staged area along with the changes=
+ of
+  our latest commit and then it deletes the latest commit.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>So, we
+  get only one commit overall.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Now, to
+  <span style=3D'background:yellow;mso-highlight:yellow'>update</span> the =
+same
+  on <span style=3D'background:yellow;mso-highlight:yellow'>GitHub</span> (=
+Remote
+  Repo)</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+><span
+  style=3D'font-weight:bold'>git push </span><span style=3D'font-weight:bol=
+d;
+  background:yellow;mso-highlight:yellow'>--force</span><span style=3D'font=
+-weight:
+  bold'> origin &lt;branch-name&gt;</span></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.868in;
+  height:1.6868in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.3131in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.5118in;
+  height:.3131in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:4.8416in;
+  height:.3131in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.868in;
+  height:.3131in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:1.6868in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.5118in;
+  height:1.6868in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td colspan=3D2 valign=3Dtop style=3D'vertical-align:top;margin:0in;paddi=
+ng:0pt;
+  width:5.7104in;height:1.6868in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>Recovering Lost Commits</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'> </span><span style=3D'font-weight:bold'>git =
+reflog</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Shows record=
+ of
+  when the tips of branches &amp; other references were updated in local re=
+po</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>It will disp=
+lay
+  all the checkouts, commits, pull from remote repo, merges that have been =
+done
+  on the HEAD for all the branches. We can get our commit hash from here</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>git cherry-pick &lt;commit-hash&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>This will cr=
+eate a
+  new commit by merging the commit specified by commit-hash</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.2381in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.5118in;
+  height:.2381in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:4.8416in;
+  height:.2381in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.868in;
+  height:.2381in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+</table>
+
+<div style=3D'direction:ltr;margin-top:.0743in;margin-left:5.25in;width:6.6=
+298in'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Other few comm=
+ands:</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><a
+href=3D"https://www.geeksforgeeks.org/difference-between-add-a-add-u-add-an=
+d-add">https://www.geeksforgeeks.org/difference-between-add-a-add-u-add-and=
+-add</a></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><a
+href=3D"https://www.geeksforgeeks.org/git-working-with-stash">https://www.g=
+eeksforgeeks.org/git-working-with-stash</a>
+[used for temporary saving local vidout commit] </p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><a
+href=3D"https://www.geeksforgeeks.org/git-squash">https://www.geeksforgeeks=
+.org/git-squash</a>
+[used for cleaner commit history]</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><a
+href=3D"https://www.geeksforgeeks.org/how-to-use-git-log-to-format-the-comm=
+it-history">https://www.geeksforgeeks.org/how-to-use-git-log-to-format-the-=
+commit-history</a></p>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:13.225in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.277in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt'>Merge<=
+/p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0409in;margin-left:0in;width:1.5062=
+in'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+30 May
+2024</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+23:21</p>
+
+</div>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 cols=3D5 valign=3Dtop sty=
+le=3D'direction:
+ ltr;border-collapse:collapse;border-width:0pt;margin-top:.1826in;margin-le=
+ft:
+ 0in;width:13.225in'>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:7.5916in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4076in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.2562in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.9305in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0375in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:1.8736in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td rowspan=3D6 valign=3Dtop style=3D'vertical-align:top;margin:0in;paddi=
+ng:0pt;
+  width:7.5916in;height:5.4173in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>MERGE Conflict</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Often, multi=
+ple
+  people can change a same file (generally when a same line is impacted) fr=
+om
+  their respective branches (or even a single user does changes from multip=
+le
+  branch) and hence, Git is unable to resolve whose changes to keep.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>When Git is =
+unable
+  to resolve difference between current vs another branch file, it's called
+  MERGE CONFLICT.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>We need to
+  manually resolve this. [without resolving, we won't be able to further pu=
+sh
+  our local commits].</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Scenario:</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>We commited
+  something in local main.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Next we comm=
+ited
+  something in same file in local secondaryBranch</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Now, when we
+  checkout to main branch and do git merge secondaryBranch, it will have a
+  conflict as Git is not able to resolve which among the main branch or
+  secondaryBranch commited changes to be given priority OR both is needed.<=
+/p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Generally,
+  difference in different lines gets resolved by Git however in same line it
+  will show conflict message and ask us to resolve.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Then, manual=
+ly go
+  to that file and perform changes.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Git will als=
+o add
+  the changes marker like below; HEAD point to current branch, 'daily' is n=
+ame
+  of branch which we're merging to our current branch:</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+  HEAD</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Create
+  empty Git repo in the specific directory in local repo</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>=3D=3D=3D=3D=3D=3D=3D</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Create
+  empty Git repo in the specific directory in local</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+  daily</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Remove
+  the markers and non-needed lines and do git add and git commit to complete
+  the Merge successfully.</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4076in;
+  height:1.8736in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td colspan=3D2 valign=3Dtop style=3D'vertical-align:top;margin:0in;paddi=
+ng:0pt;
+  width:5.1875in;height:1.8736in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+><span
+  style=3D'font-weight:bold'>Fast-Forward Merge</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Take
+  two branches, say 'main' and 'feature'</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Now,
+  assume 'feature' &amp; 'main' is currently having same data in latest com=
+mit.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Next
+  'feature' branch committed 1 or more times.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>However,
+  'main' branch has no further commit since then.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Now, if
+  we merge 'feature' into 'main' branch; since linear changes are present, =
+it
+  is fast-forward merging and won't create separate commit-id in 'main' and=
+ use
+  same commit of feature branch in both branches</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0375in;
+  height:1.8736in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.8756in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4076in;
+  height:.8756in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.2562in;
+  height:.8756in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.9305in;
+  height:.8756in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0375in;
+  height:.8756in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.3812in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4076in;
+  height:.3812in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.2562in;
+  height:.3819in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+><span
+  style=3D'font-weight:bold'>git merge --abort</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>To
+  abort a merge operation</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.9305in;
+  height:.3812in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0375in;
+  height:.3812in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.8673in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4076in;
+  height:.8673in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.2562in;
+  height:.8673in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.9305in;
+  height:.8673in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0375in;
+  height:.8673in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:1.1284in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4076in;
+  height:1.1284in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td colspan=3D3 valign=3Dtop style=3D'vertical-align:top;margin:0in;paddi=
+ng:0pt;
+  width:5.225in;height:1.1284in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+><span
+  style=3D'font-weight:bold'>git-blame &lt;file-name&gt;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>git-blame
+  is a Git command that displays each line of a file with information about=
+ the
+  commit that last modified it. This includes the author of the change, the
+  commit hash, and the timestamp of the change. This information can help y=
+ou
+  understand the context of changes and identify who to ask about specific
+  lines of code.</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.2888in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.4076in;
+  height:.2888in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.2562in;
+  height:.2888in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.9305in;
+  height:.2888in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0375in;
+  height:.2888in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:12.2527in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:2.4375in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt'>Merge =
+vs
+Rebase</p>
+
+</div>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 cols=3D4 valign=3Dtop sty=
+le=3D'direction:
+ ltr;border-collapse:collapse;border-width:0pt;margin-top:.0409in;margin-le=
+ft:
+ 0in;width:12.2527in'>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.5173in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:5.0451in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.6875in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:5.0027in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.1104in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td rowspan=3D2 valign=3Dtop style=3D'vertical-align:top;margin:0in;paddi=
+ng:0pt;
+  width:1.5173in;height:.1784in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676=
+'>01
+  June 2024</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676=
+'>12:50</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:5.0451in;
+  height:.1104in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.6875in;
+  height:.1104in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:5.0027in;
+  height:.1104in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.0673in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:5.0451in;
+  height:.0673in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.6875in;
+  height:.0673in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td rowspan=3D4 valign=3Dtop style=3D'vertical-align:top;margin:0in;paddi=
+ng:0pt;
+  width:5.0027in;height:6.1638in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>Rebasing</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>It is used to
+  change the point of separation.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Example:</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Let's assume=
+ a
+  'main' branch having commits C1, C2, C3. </p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Create a 'te=
+mp'
+  branch from 'main'. [Basically, branch creation point is C3]</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>'temp' branc=
+h will
+  have commit log history as:</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>C3</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>C2</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>C1</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Now, checkou=
+t to
+  'main' branch and do a commit, say MC1.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Checkout to =
+'temp'
+  and do commit, say TC1.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Again, check=
+out to
+  'main' branch &amp; do commit MC2.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Checkout bac=
+k to
+  'temp' and do commit, say TC2.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Now run<span
+  style=3D'font-style:italic'>, git rebase main</span> to rebase 'main' into
+  'temp' branch.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>'temp' branc=
+h will
+  have updated commit log history as below:</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>TC2</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>TC1</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>MC2</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>MC1</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>C3</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>C2</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>C1</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Hence, commi=
+ts of
+  'main' will be first stored and then the commits of 'temp'</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Reason: Sepa=
+ration
+  point which was initially C3, is now moved to MC2 and then the further
+  commits of 'temp' will be applied on top of the same.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>It's like, p=
+ull
+  all commits of other branch onto current branch till latest commit of oth=
+er
+  branch and then apply all current branch commits on top of them.</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.1826in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.5173in;
+  height:.1826in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:5.0451in;
+  height:.1826in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.6875in;
+  height:.1826in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:5.6034in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td colspan=3D2 valign=3Dtop style=3D'vertical-align:top;margin:0in;paddi=
+ng:0pt;
+  width:6.5625in;height:5.6034in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>Merging</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>In Git Merge=
+, a
+  new commit is created and the commit history from the point where branch =
+was
+  initially separated till latest commit of both branch are preserved in the
+  reverse chronological order of time.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Example:</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Let's assume=
+ a
+  'main' branch having commits C1, C2, C3. </p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Create a 'te=
+mp'
+  branch from 'main'.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>'temp' branc=
+h will
+  have commit log history as:</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>C3</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>C2</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>C1</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Now, checkou=
+t to
+  'main' branch and do a commit, say MC1.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Checkout to =
+'temp'
+  and do commit, say TC1.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Again, check=
+out to
+  'main' branch &amp; do commit MC2.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Checkout bac=
+k to
+  'temp' and do commit, say TC2.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Now merge 'm=
+ain'
+  into 'temp' branch.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>'temp' branc=
+h will
+  have updated commit log history as below:</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>TC2</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>MC2</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>TC1</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>MC1</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>C3</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>C2</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>C1</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Hence, 'temp'
+  branch commit log history will store all the commits of both 'temp' and
+  'main' together as they were done in time.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.6875in;
+  height:5.6034in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.309in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.5173in;
+  height:.309in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:5.0451in;
+  height:.309in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.6875in;
+  height:.309in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:7.6041in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:2.3048in'>
+
+<p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt'>Git
+Cheat-Sheet</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0409in;margin-left:0in;width:1.5173=
+in'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+02
+June 2024</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+00:34</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4326in;margin-left:0in;width:7.6041=
+in'>
+
+<p style=3D'margin:0in;font-family:"Cambria Math";font-size:11.0pt'>&#11980=
+9;&#119808;&#119826;&#119816;&#119810;&#119826;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>1. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119842;&#119847;&#119842;&#119853;</span><span style=3D'font-family:Calib=
+ri'>
+&lt;</span><span style=3D'font-family:"Cambria Math"'>&#119837;&#119842;&#1=
+19851;&#119838;&#119836;&#119853;&#119848;&#119851;&#119858;</span><span
+style=3D'font-family:Calibri'>&gt; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Create empty G=
+it
+repo in the specific directory</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>2. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119836;&#119845;&#119848;&#119847;&#119838;</span><span style=3D'font-fam=
+ily:
+Calibri'> &lt;</span><span style=3D'font-family:"Cambria Math"'>&#119851;&#=
+119838;&#119849;&#119848;</span><span
+style=3D'font-family:Calibri'>&gt; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Clone repo loc=
+ated
+at the &lt;repo&gt; defined. Can be either local or removed via HTTP or SSH=
+</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>3. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119836;&#119848;&#119847;&#119839;&#119842;&#119840;
+&#119854;&#119852;&#119838;&#119851;</span><span style=3D'font-family:Calib=
+ri'>.</span><span
+style=3D'font-family:"Cambria Math"'>&#119847;&#119834;&#119846;&#119838;</=
+span><span
+style=3D'font-family:Calibri'> &lt;</span><span style=3D'font-family:"Cambr=
+ia Math"'>&#119847;&#119834;&#119846;&#119838;</span><span
+style=3D'font-family:Calibri'>&gt; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Author name th=
+at
+would be used for all commits in the current repo</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>4. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119834;&#119837;&#119837;</span><span style=3D'font-family:Calibri'> &lt;=
+</span><span
+style=3D'font-family:"Cambria Math"'>&#119837;&#119842;&#119851;&#119838;&#=
+119836;&#119853;&#119848;&#119851;&#119858;</span><span
+style=3D'font-family:Calibri'>&gt;/&lt;</span><span style=3D'font-family:"C=
+ambria Math"'>&#119839;&#119842;&#119845;&#119838;</span><span
+style=3D'font-family:Calibri'>&gt;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Adds the
+directory/file on your next commit</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>5. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119836;&#119848;&#119846;&#119846;&#119842;&#119853;</span><span
+style=3D'font-family:Calibri'> -</span><span style=3D'font-family:"Cambria =
+Math"'>&#119846;</span><span
+style=3D'font-family:Calibri'> &quot;&lt;</span><span style=3D'font-family:=
+"Cambria Math"'>&#119846;&#119838;&#119852;&#119852;&#119834;&#119840;&#119=
+838;</span><span
+style=3D'font-family:Calibri'>&gt;&quot; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Commits your s=
+taged
+content as the new commit snapshot with a message</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>6. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119852;&#119853;&#119834;&#119853;&#119854;&#119852; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Shows modified=
+ files
+in the working directory</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>7. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119845;&#119848;&#119840;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Shows all comm=
+its in
+the current branch's history</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>8. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119837;&#119842;&#119839;&#119839;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Shows the diff=
+erence
+of what's changed but not staged</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:"Cambria Math";font-size:11.0pt'>&#11982=
+8;&#119821;&#119811;&#119822;&#119816;&#119821;&#119814;
+&#119810;&#119815;&#119808;&#119821;&#119814;&#119812;&#119826;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>1. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119851;&#119838;&#119855;&#119838;&#119851;&#119853;</span><span
+style=3D'font-family:Calibri'> &lt;</span><span style=3D'font-family:"Cambr=
+ia Math"'>&#119836;&#119848;&#119846;&#119846;&#119842;&#119853;</span><span
+style=3D'font-family:Calibri'>&gt; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Undoes all the
+changes made in &lt;commit&gt; then apply it to the the current branch</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>2. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119851;&#119838;&#119852;&#119838;&#119853;</span><span style=3D'font-fam=
+ily:
+Calibri'> &lt;</span><span style=3D'font-family:"Cambria Math"'>&#119839;&#=
+119842;&#119845;&#119838;</span><span
+style=3D'font-family:Calibri'>&gt; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Removes the fi=
+le
+from the staging area, but leave the working directory unchanged. This unst=
+ages
+a file without overwriting any changes </p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>3. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119836;&#119845;&#119838;&#119834;&#119847;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Used to remove=
+ the
+unwanted files from your working directory. Many options to remove the unwa=
+nted
+files i.e., -f, -n, -d, etc.</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:"Cambria Math";font-size:11.0pt'>&#11982=
+5;&#119812;&#119830;&#119825;&#119816;&#119827;&#119816;&#119821;&#119814;
+&#119814;&#119816;&#119827;
+&#119815;&#119816;&#119826;&#119827;&#119822;&#119825;&#119832;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>1. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119836;&#119848;&#119846;&#119846;&#119842;&#119853;</span><span
+style=3D'font-family:Calibri'> --</span><span style=3D'font-family:"Cambria=
+ Math"'>&#119834;&#119846;&#119838;&#119847;&#119837;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Replace the la=
+st
+commit with the staged changes and the last commit combined. Use with nothi=
+ng
+staged to edit the last commit's message</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>2. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119851;&#119838;&#119835;&#119834;&#119852;&#119838;</span><span
+style=3D'font-family:Calibri'> &lt;</span><span style=3D'font-family:"Cambr=
+ia Math"'>&#119835;&#119834;&#119852;&#119838;</span><span
+style=3D'font-family:Calibri'>&gt;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Rebase the cur=
+rent
+branch onto &lt;base&gt;. &lt;base&gt; can be a commit ID, branch name, a t=
+ag,
+or a relative reference to HEAD</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>3. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119851;&#119838;&#119839;&#119845;&#119848;&#119840; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Show a log of
+changes to the local repository's HEAD</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:"Cambria Math";font-size:11.0pt'>&#11981=
+4;&#119816;&#119827;
+&#119809;&#119825;&#119808;&#119821;&#119810;&#119815;&#119812;&#119826; </=
+p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>1. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119835;&#119851;&#119834;&#119847;&#119836;&#119841;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Lists all of t=
+he
+branches in your repo </p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>2. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119835;&#119851;&#119834;&#119847;&#119836;&#119841;</span><span
+style=3D'font-family:Calibri'> &lt;</span><span style=3D'font-family:"Cambr=
+ia Math"'>&#119835;&#119851;&#119834;&#119847;&#119836;&#119841;</span><span
+style=3D'font-family:Calibri'>-</span><span style=3D'font-family:"Cambria M=
+ath"'>&#119847;&#119834;&#119846;&#119838;</span><span
+style=3D'font-family:Calibri'>&gt;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Create a new b=
+ranch
+of the current commit</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>3. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119836;&#119841;&#119838;&#119836;&#119844;&#119848;&#119854;&#119853;</s=
+pan></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Switch to anot=
+her
+branch and check it out into your working directory</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>4. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119846;&#119838;&#119851;&#119840;&#119838;</span><span style=3D'font-fam=
+ily:
+Calibri'> &lt;</span><span style=3D'font-family:"Cambria Math"'>&#119835;&#=
+119851;&#119834;&#119847;&#119836;&#119841;</span><span
+style=3D'font-family:Calibri'>&gt;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Merge the spec=
+ified
+branch's history into the current one</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:"Cambria Math";font-size:11.0pt'>&#11982=
+5;&#119812;&#119820;&#119822;&#119827;&#119812;
+&#119825;&#119812;&#119823;&#119822;&#119826;&#119816;&#119827;&#119822;&#1=
+19825;&#119816;&#119812;&#119826;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>1. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119851;&#119838;&#119846;&#119848;&#119853;&#119838;
+&#119834;&#119837;&#119837;</span><span style=3D'font-family:Calibri'> &lt;=
+</span><span
+style=3D'font-family:"Cambria Math"'>&#119847;&#119834;&#119846;&#119838;</=
+span><span
+style=3D'font-family:Calibri'>&gt; &lt;</span><span style=3D'font-family:"C=
+ambria Math"'>&#119854;&#119851;&#119845;</span><span
+style=3D'font-family:Calibri'>&gt;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Create a new
+connection to a remote repo. After adding a remote, you can use &lt;name&gt=
+; as
+a shortcut for &lt;url&gt; in other commands </p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>2. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119839;&#119838;&#119853;&#119836;&#119841;</span><span style=3D'font-fam=
+ily:
+Calibri'> &lt;</span><span style=3D'font-family:"Cambria Math"'>&#119851;&#=
+119838;&#119846;&#119848;&#119853;&#119838;</span><span
+style=3D'font-family:Calibri'>&gt; &lt;</span><span style=3D'font-family:"C=
+ambria Math"'>&#119835;&#119851;&#119834;&#119847;&#119836;&#119841;</span>=
+<span
+style=3D'font-family:Calibri'>&gt;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Fetches a spec=
+ific
+&lt;branch&gt;, from the repo. Leave off &lt;branch&gt; to fetch all remote
+refs</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>3. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119849;&#119854;&#119845;&#119845;</span><span style=3D'font-family:Calib=
+ri'>
+&lt;</span><span style=3D'font-family:"Cambria Math"'>&#119851;&#119838;&#1=
+19846;&#119848;&#119853;&#119838;</span><span
+style=3D'font-family:Calibri'>&gt;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Fetch the spec=
+ified
+remote's copy of the current branch and immediately merge it into the local
+copy</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>4. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119849;&#119854;&#119852;&#119841;</span><span style=3D'font-family:Calib=
+ri'>
+&lt;</span><span style=3D'font-family:"Cambria Math"'>&#119851;&#119838;&#1=
+19846;&#119848;&#119853;&#119838;</span><span
+style=3D'font-family:Calibri'>&gt; &lt;</span><span style=3D'font-family:"C=
+ambria Math"'>&#119835;&#119851;&#119834;&#119847;&#119836;&#119841;</span>=
+<span
+style=3D'font-family:Calibri'>&gt; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Push the branc=
+h to
+&lt;remote&gt;, along with necessary commits and objects. Creates named bra=
+nch
+in the remote repo if it doesn't exist</p>
+
+</div>
+
+</div>
+
+</div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:8.7625in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:1.6284in'>
+
+<p style=3D'margin:0in;font-family:"Cambria Math";font-size:20.0pt' lang=3D=
+en-US>Undoing
+</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0409in;margin-left:0in;width:1.5062=
+in'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+30 May
+2024</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+03:00</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.1958in;margin-left:0in;width:8.7625=
+in'>
+
+<p style=3D'margin:0in;font-family:"Cambria Math";font-size:11.0pt'>&#11980=
+9;&#119808;&#119826;&#119816;&#119810;&#119826;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>1. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119842;&#119847;&#119842;&#119853;</span><span style=3D'font-family:Calib=
+ri'>
+&lt;</span><span style=3D'font-family:"Cambria Math"'>&#119837;&#119842;&#1=
+19851;&#119838;&#119836;&#119853;&#119848;&#119851;&#119858;</span><span
+style=3D'font-family:Calibri'>&gt; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Create empty G=
+it
+repo in the specific directory</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>2. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119836;&#119845;&#119848;&#119847;&#119838;</span><span style=3D'font-fam=
+ily:
+Calibri'> &lt;</span><span style=3D'font-family:"Cambria Math"'>&#119851;&#=
+119838;&#119849;&#119848;</span><span
+style=3D'font-family:Calibri'>&gt; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Clone repo loc=
+ated
+at the &lt;repo&gt; defined. Can be either local or removed via HTTP or SSH=
+</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>3. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119836;&#119848;&#119847;&#119839;&#119842;&#119840;
+&#119854;&#119852;&#119838;&#119851;</span><span style=3D'font-family:Calib=
+ri'>.</span><span
+style=3D'font-family:"Cambria Math"'>&#119847;&#119834;&#119846;&#119838;</=
+span><span
+style=3D'font-family:Calibri'> &lt;</span><span style=3D'font-family:"Cambr=
+ia Math"'>&#119847;&#119834;&#119846;&#119838;</span><span
+style=3D'font-family:Calibri'>&gt; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Author name th=
+at
+would be used for all commits in the current repo</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>4. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119834;&#119837;&#119837;</span><span style=3D'font-family:Calibri'> &lt;=
+</span><span
+style=3D'font-family:"Cambria Math"'>&#119837;&#119842;&#119851;&#119838;&#=
+119836;&#119853;&#119848;&#119851;&#119858;</span><span
+style=3D'font-family:Calibri'>&gt;/&lt;</span><span style=3D'font-family:"C=
+ambria Math"'>&#119839;&#119842;&#119845;&#119838;</span><span
+style=3D'font-family:Calibri'>&gt;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Adds the
+directory/file on your next commit</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>5. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119836;&#119848;&#119846;&#119846;&#119842;&#119853;</span><span
+style=3D'font-family:Calibri'> -</span><span style=3D'font-family:"Cambria =
+Math"'>&#119846;</span><span
+style=3D'font-family:Calibri'> &quot;&lt;</span><span style=3D'font-family:=
+"Cambria Math"'>&#119846;&#119838;&#119852;&#119852;&#119834;&#119840;&#119=
+838;</span><span
+style=3D'font-family:Calibri'>&gt;&quot; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Commits your s=
+taged
+content as the new commit snapshot with a message</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>6. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119852;&#119853;&#119834;&#119853;&#119854;&#119852; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Shows modified=
+ files
+in the working directory</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>7. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119845;&#119848;&#119840;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Shows all comm=
+its in
+the current branch's history</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>8. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119837;&#119842;&#119839;&#119839;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Shows the diff=
+erence
+of what's changed but not staged</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:"Cambria Math";font-size:11.0pt'>&#11982=
+8;&#119821;&#119811;&#119822;&#119816;&#119821;&#119814;
+&#119810;&#119815;&#119808;&#119821;&#119814;&#119812;&#119826;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>1. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119851;&#119838;&#119855;&#119838;&#119851;&#119853;</span><span
+style=3D'font-family:Calibri'> &lt;</span><span style=3D'font-family:"Cambr=
+ia Math"'>&#119836;&#119848;&#119846;&#119846;&#119842;&#119853;</span><span
+style=3D'font-family:Calibri'>&gt; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Undoes all the
+changes made in &lt;commit&gt; then apply it to the the current branch</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>2. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119851;&#119838;&#119852;&#119838;&#119853;</span><span style=3D'font-fam=
+ily:
+Calibri'> &lt;</span><span style=3D'font-family:"Cambria Math"'>&#119839;&#=
+119842;&#119845;&#119838;</span><span
+style=3D'font-family:Calibri'>&gt; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Removes the fi=
+le
+from the staging area, but leave the working directory unchanged. This unst=
+ages
+a file without overwriting any changes </p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>3. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119836;&#119845;&#119838;&#119834;&#119847;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Used to remove=
+ the
+unwanted files from your working directory. Many options to remove the unwa=
+nted
+files i.e., -f, -n, -d, etc.</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:"Cambria Math";font-size:11.0pt'>&#11982=
+5;&#119812;&#119830;&#119825;&#119816;&#119827;&#119816;&#119821;&#119814;
+&#119814;&#119816;&#119827;
+&#119815;&#119816;&#119826;&#119827;&#119822;&#119825;&#119832;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>1. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119836;&#119848;&#119846;&#119846;&#119842;&#119853;</span><span
+style=3D'font-family:Calibri'> --</span><span style=3D'font-family:"Cambria=
+ Math"'>&#119834;&#119846;&#119838;&#119847;&#119837;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Replace the la=
+st
+commit with the staged changes and the last commit combined. Use with nothi=
+ng
+staged to edit the last commit's message</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>2. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119851;&#119838;&#119835;&#119834;&#119852;&#119838;</span><span
+style=3D'font-family:Calibri'> &lt;</span><span style=3D'font-family:"Cambr=
+ia Math"'>&#119835;&#119834;&#119852;&#119838;</span><span
+style=3D'font-family:Calibri'>&gt;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Rebase the cur=
+rent
+branch onto &lt;base&gt;. &lt;base&gt; can be a commit ID, branch name, a t=
+ag,
+or a relative reference to HEAD</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>3. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119851;&#119838;&#119839;&#119845;&#119848;&#119840; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Show a log of
+changes to the local repository's HEAD</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:"Cambria Math";font-size:11.0pt'>&#11981=
+4;&#119816;&#119827;
+&#119809;&#119825;&#119808;&#119821;&#119810;&#119815;&#119812;&#119826; </=
+p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>1. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119835;&#119851;&#119834;&#119847;&#119836;&#119841;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Lists all of t=
+he
+branches in your repo </p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>2. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119835;&#119851;&#119834;&#119847;&#119836;&#119841;</span><span
+style=3D'font-family:Calibri'> &lt;</span><span style=3D'font-family:"Cambr=
+ia Math"'>&#119835;&#119851;&#119834;&#119847;&#119836;&#119841;</span><span
+style=3D'font-family:Calibri'>-</span><span style=3D'font-family:"Cambria M=
+ath"'>&#119847;&#119834;&#119846;&#119838;</span><span
+style=3D'font-family:Calibri'>&gt;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Create a new b=
+ranch
+of the current commit</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>3. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119836;&#119841;&#119838;&#119836;&#119844;&#119848;&#119854;&#119853;</s=
+pan></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Switch to anot=
+her
+branch and check it out into your working directory</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>4. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119846;&#119838;&#119851;&#119840;&#119838;</span><span style=3D'font-fam=
+ily:
+Calibri'> &lt;</span><span style=3D'font-family:"Cambria Math"'>&#119835;&#=
+119851;&#119834;&#119847;&#119836;&#119841;</span><span
+style=3D'font-family:Calibri'>&gt;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Merge the spec=
+ified
+branch's history into the current one</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:"Cambria Math";font-size:11.0pt'>&#11982=
+5;&#119812;&#119820;&#119822;&#119827;&#119812;
+&#119825;&#119812;&#119823;&#119822;&#119826;&#119816;&#119827;&#119822;&#1=
+19825;&#119816;&#119812;&#119826;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>1. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119851;&#119838;&#119846;&#119848;&#119853;&#119838;
+&#119834;&#119837;&#119837;</span><span style=3D'font-family:Calibri'> &lt;=
+</span><span
+style=3D'font-family:"Cambria Math"'>&#119847;&#119834;&#119846;&#119838;</=
+span><span
+style=3D'font-family:Calibri'>&gt; &lt;</span><span style=3D'font-family:"C=
+ambria Math"'>&#119854;&#119851;&#119845;</span><span
+style=3D'font-family:Calibri'>&gt;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Create a new
+connection to a remote repo. After adding a remote, you can use &lt;name&gt=
+; as
+a shortcut for &lt;url&gt; in other commands </p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>2. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119839;&#119838;&#119853;&#119836;&#119841;</span><span style=3D'font-fam=
+ily:
+Calibri'> &lt;</span><span style=3D'font-family:"Cambria Math"'>&#119851;&#=
+119838;&#119846;&#119848;&#119853;&#119838;</span><span
+style=3D'font-family:Calibri'>&gt; &lt;</span><span style=3D'font-family:"C=
+ambria Math"'>&#119835;&#119851;&#119834;&#119847;&#119836;&#119841;</span>=
+<span
+style=3D'font-family:Calibri'>&gt;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Fetches a spec=
+ific
+&lt;branch&gt;, from the repo. Leave off &lt;branch&gt; to fetch all remote
+refs</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>3. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119849;&#119854;&#119845;&#119845;</span><span style=3D'font-family:Calib=
+ri'>
+&lt;</span><span style=3D'font-family:"Cambria Math"'>&#119851;&#119838;&#1=
+19846;&#119848;&#119853;&#119838;</span><span
+style=3D'font-family:Calibri'>&gt;</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Fetch the spec=
+ified
+remote's copy of the current branch and immediately merge it into the local
+copy</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>4. </span><span
+style=3D'font-family:"Cambria Math"'>&#119840;&#119842;&#119853;
+&#119849;&#119854;&#119852;&#119841;</span><span style=3D'font-family:Calib=
+ri'>
+&lt;</span><span style=3D'font-family:"Cambria Math"'>&#119851;&#119838;&#1=
+19846;&#119848;&#119853;&#119838;</span><span
+style=3D'font-family:Calibri'>&gt; &lt;</span><span style=3D'font-family:"C=
+ambria Math"'>&#119835;&#119851;&#119834;&#119847;&#119836;&#119841;</span>=
+<span
+style=3D'font-family:Calibri'>&gt; </span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Push the branc=
+h to
+&lt;remote&gt;, along with necessary commits and objects. Creates named bra=
+nch
+in the remote repo if it doesn't exist</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>Created with OneNote.</p>
+
+</div>
+
+</body>
+
+</html>

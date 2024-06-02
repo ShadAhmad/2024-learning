@@ -1,0 +1,498 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/49083227/Java-Programming.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3DJava-Programming.htm>
+<link rel=3DFile-List href=3D"Java-Programming_files/filelist.xml">
+</head>
+
+<body lang=3Den-IN style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:11.3006in'>
+
+<table border=3D0 cellpadding=3D0 cellspacing=3D0 cols=3D7 valign=3Dtop sty=
+le=3D'direction:
+ ltr;border-collapse:collapse;border-width:0pt;margin-top:0in;margin-left:0=
+in;
+ width:11.3006in'>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0743in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.8541in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.2888in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:5.3555in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.5in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.8777in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.3472in;
+  height:1px;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.3479in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0743in;
+  height:.3479in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td colspan=3D2 valign=3Dtop style=3D'vertical-align:top;margin:0in;paddi=
+ng:0pt;
+  width:2.1437in;height:.3479in'>
+  <p style=3D'margin:0in;font-family:"Calibri Light";font-size:20.0pt'>Gene=
+ral
+  Notes</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:5.3555in;
+  height:.3479in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.5in;
+  height:.3479in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td rowspan=3D5 valign=3Dtop style=3D'vertical-align:top;margin:0in;paddi=
+ng:0pt;
+  width:2.8777in;height:1.5006in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'font-weight:bold'>Taking User Input</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>import
+  java.util.Scanner;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Scanner sc =
+=3D new
+  Scanner(System.in);</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>int n =3D
+  sc.nextInt();</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>sc.close();<=
+/p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.3472in;
+  height:.3479in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.0409in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0743in;
+  height:.0409in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.8541in;
+  height:.0409in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.2888in;
+  height:.0409in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:5.3555in;
+  height:.0409in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.5in;
+  height:.0409in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.3472in;
+  height:.0409in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.1784in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0743in;
+  height:.1784in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.8541in;
+  height:.1784in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676=
+'>14
+  March 2023</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676=
+'>03:04
+  AM</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.2888in;
+  height:.1784in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:5.3555in;
+  height:.1784in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.5in;
+  height:.1784in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.3472in;
+  height:.1784in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.3375in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.0743in;
+  height:.3375in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1.8541in;
+  height:.3375in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.2888in;
+  height:.3375in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:5.3555in;
+  height:.3375in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.5in;
+  height:.3375in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.3472in;
+  height:.3375in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.5951in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td colspan=3D4 rowspan=3D4 valign=3Dtop style=3D'vertical-align:top;marg=
+in:0in;
+  padding:0pt;width:7.575in;height:7.3611in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>A class is a=
+ group
+  of objects which have common properties. A class can have some properties
+  &amp; functions (methods).</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>A function i=
+s a
+  block of code which takes some input, performs some operations and returns
+  some output.&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>The functions
+  stored inside classes are called methods.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>A variable i=
+s a
+  container (storage area) used to hold data. Each variable should be given=
+ a
+  unique name (identifier). </p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:12.0pt;color:black'>=
+&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Each .java f=
+ile
+  can have <span style=3D'font-weight:bold'>max one public class</span> &am=
+p; any
+  number of non-public classes.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>If a .java f=
+ile
+  has more than one class, then each class will be compiled into a <span
+  style=3D'font-weight:bold'>separate class </span>file.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>A Java progr=
+am can
+  be<span style=3D'font-weight:bold'> compiled without main()</span>.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>On executing=
+ the
+  program, it gives exception till JDK6 however gives error as main method =
+not
+  found in JDK 7+.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>A <span
+  style=3D'font-weight:bold'>loop</span> consists of an <span style=3D'font=
+-style:
+  italic'>initialization statement, a test condition and an increment state=
+ment</span>.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Use long ins=
+tead
+  of int for large numbers esp. in add or multiply</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Use Math.max=
+(var1,
+  var2) to find higher value</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Any statement
+  inside switch without start of any case then it will not be executed</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Auto keyword=
+ is
+  same as without writing auto to any variable. variable has scope in the b=
+lock
+  it is.</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>For-each loo=
+p:</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Variable <sp=
+an
+  style=3D'font-style:italic'>arrayOfInt</span> is an array of Integers</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>for(int var :
+  arrayOfInt) {</p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+1.0pt'>…….</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>}</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>For non-null
+  values, String.valueOf(str) is same as str.toString()</p>
+  <p style=3D'margin:0in;font-family:inherit'><span style=3D'font-size:11.0=
+pt'>System.out.println(String.valueOf(str));<span
+  style=3D'mso-spacerun:yes'>  </span></span><span style=3D'font-size:9.75=
+pt'>//
+  This will print a String equal to &quot;null&quot;</span></p>
+  <p style=3D'margin:0in;font-family:inherit;font-size:9.5pt'>System.out.pr=
+intln(str.toString());
+  // This will throw a NullPointerException</p>
+  <p><cite style=3D'margin:0in;font-family:Calibri;font-size:9.5pt'>&nbsp;<=
+/cite></p>
+  <p><cite style=3D'margin:0in;font-family:Calibri;font-size:9.0pt;color:#5=
+95959'>str.isEmpty(
+  ) to check whether string is empty</cite></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:9.5pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:inherit;font-size:10.5pt'>To check whe=
+ther a
+  number is even OR odd by bitwise operator: (number &amp; 1 =3D=3D 1)</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:9.5pt'>'&amp;' will =
+give
+  output as 1 for each bit only when both numbers same location bit is 1; o=
+/w 0</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:9.5pt'>&nbsp;</p>
+  <div style=3D'direction:ltr'>
+  <table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'd=
+irection:ltr;
+   border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-=
+width:
+   1pt' title=3D"" summary=3D"">
+   <tr>
+    <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    vertical-align:top;width:.6673in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style=3D'margin:0in;font-family:Calibri;font-size:9.5pt'>15<span
+    style=3D'mso-spacerun:yes'>   </span></p>
+    </td>
+    <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    vertical-align:top;width:.6673in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+    </td>
+    <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    vertical-align:top;width:.8173in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style=3D'margin:0in;font-family:Calibri;font-size:9.5pt'><span
+    style=3D'mso-spacerun:yes'>     </span>00001111</p>
+    </td>
+   </tr>
+   <tr>
+    <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    vertical-align:top;width:.6673in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style=3D'margin:0in;font-family:Calibri;font-size:9.5pt'>18<span
+    style=3D'mso-spacerun:yes'>   </span></p>
+    </td>
+    <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    vertical-align:top;width:.6673in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+    </td>
+    <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    vertical-align:top;width:.8173in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style=3D'margin:0in;font-family:Calibri;font-size:9.5pt'><span
+    style=3D'mso-spacerun:yes'>     </span>00010010</p>
+    </td>
+   </tr>
+   <tr>
+    <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    vertical-align:top;width:.6756in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style=3D'margin:0in;font-family:Calibri;font-size:9.5pt'>15 &amp;<sp=
+an
+    style=3D'mso-spacerun:yes'>  </span>18</p>
+    </td>
+    <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    vertical-align:top;width:.6673in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style=3D'margin:0in;font-family:Calibri;font-size:9.5pt'>&nbsp;</p>
+    </td>
+    <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+    vertical-align:top;width:.8173in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+    <p style=3D'margin:0in;font-family:Calibri;font-size:9.5pt'><span
+    style=3D'mso-spacerun:yes'>     </span>00000010</p>
+    </td>
+   </tr>
+  </table>
+  </div>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>                       =
+            </span>which
+  equals 2</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.5in;
+  height:.5951in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.3472in;
+  height:.5951in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.2493in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.5in;
+  height:.2493in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.8777in;
+  height:.2493in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.3472in;
+  height:.2493in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:.7548in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.5in;
+  height:.7548in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td colspan=3D2 valign=3Dtop style=3D'vertical-align:top;margin:0in;paddi=
+ng:0pt;
+  width:3.2256in;height:.7548in'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Always use c=
+urly
+  braces in following format</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>if(….) {</=
+p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>}</p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:1px;
+  height:5.7618in;font-size:1pt'>
+  <p style=3D'font-size:1pt'>&nbsp;</p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.5in;
+  height:5.7618in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:2.8777in;
+  height:5.7618in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+  <td valign=3Dtop style=3D'vertical-align:top;margin:0in;padding:0pt;width=
+:.3472in;
+  height:5.7618in;font-size:1pt'>
+  <p style=3D'font-size:1pt'></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>Created with OneNote.</p>
+
+</div>
+
+</body>
+
+</html>
